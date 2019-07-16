@@ -2,10 +2,10 @@ require 'spec_helper'
 
 describe 'app.rb' do
   describe 'GET /goodbye/:name' do
-    it 'sends a 200 status code' do
-      get '/goodbye/danny'
-      expect(last_response.status).to eq(200)
-    end
+    # it 'sends a 200 status code' do
+    #   get '/goodbye/danny'
+    #   expect(last_response.status).to eq(200)
+    # end
 
     it "displays 'goodbye' and a name" do
       get '/goodbye/danny'
